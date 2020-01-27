@@ -60,8 +60,8 @@ library
                    , hashable              >= 1.2.7.0  && < 1.4
                    , http-types            >= 0.12.3   && < 0.13
                    , tagged                >= 0.8.5    && < 0.9
-                   , time-compat           >= 1.9.2    && < 1.10
-                   , unordered-containers  >= 0.2.10.0  && < 0.3
+                   , time-compat           >= 0.1      && < 1.10
+                   , unordered-containers  >= 0.2.9.0  && < 0.3
                    , uuid-types            >= 1.0.3    && <1.1
 
     if !impl(ghc >= 7.10)
